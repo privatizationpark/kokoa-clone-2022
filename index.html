@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Full-Stack Course</title>
+  <title>Welcome to Full-Stack World</title>
 </head>
 <body>
   <div class="status-bar">
@@ -26,14 +26,14 @@
     </div>
   </div>
   <header class="Welcome-header">
-    <h1 class="Welcome-header__title">Welcome to Full-Stack Course</h1>
+    <h1 class="Welcome-header__title">Welcome to Full-Stack Course!</h1>
     <p class="Welcome-header__text">
       If you have a Account, log in with your email or phone number.
     </p>
   </header>
-  <form class="login-form">
-    <input class="login-form__id" type="text" placeholder="Email or phone number">
-    <input class="login-form__pw"type="password" placeholder="Password">
+  <form action="Language.html" method="get" class="login-form">
+    <input name="username" class="login-form__id" required minlength="8" type="text" placeholder="Email or phone number">
+    <input name="password" class="login-form__pw" required minlength="8" type="password" placeholder="Password">
     <input class="login-form__sm"type="submit" value="Log In">
     <a href="#">Find Account or Password</a>
   </form>

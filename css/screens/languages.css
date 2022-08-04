@@ -1,0 +1,32 @@
+#language-display-link {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.02);
+  padding: 7px 0px;
+  margin-bottom: 10px;
+}
+
+#language-display-link i {
+  color: rgba(151, 146, 146, 0.466);
+  margin-right: 5px;
+}
+
+.languages-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.languages-screen__channel-header {
+  margin-bottom: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(151, 146, 146);
+  font-size: 15px;
+}
+
+.languages-screen__channel .user-component_title {
+  font-weight: 200;
+}
