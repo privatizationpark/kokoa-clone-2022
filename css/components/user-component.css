@@ -23,11 +23,18 @@
   padding-bottom: 13px;
 }
 
+.user-component__bottomtitle {
+  margin-left: 10px;
+  margin-top: -5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .user-component__subtitle {
+  display: flex;
   margin-right: 15px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  padding-bottom: 13px;
+  padding-bottom: 14px;
 }
 
 .user-component__avatar--xl {
@@ -43,4 +50,24 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.user-component__subtitle-notification {
+  background-color: tomato;
+  font-size: 15px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
 }

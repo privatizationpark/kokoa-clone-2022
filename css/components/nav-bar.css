@@ -5,7 +5,7 @@
   background-color: rgb(253, 249, 249);
   padding: 10px 45px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(122, 119, 119, 0.288);
+  border-top: 1px solid rgba(136, 132, 132, 0.288);
 }
 
 .nav__list{
@@ -17,6 +17,7 @@
 .nav__link{
   position: relative;
   color: rgb(65, 63, 63);
+  flex-direction:column;
 }
 
 .nav__github__notification {

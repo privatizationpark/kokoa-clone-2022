@@ -14,3 +14,18 @@
 .screen-header__icons span{
   margin-left: 10px;
 }
+
+.screen-header__inbox__notification {
+  position: absolute;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  right: 125px;
+  top:40px;
+}
