@@ -6,6 +6,8 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .status-bar__column {

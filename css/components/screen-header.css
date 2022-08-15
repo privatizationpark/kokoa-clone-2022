@@ -29,3 +29,16 @@
   right: 125px;
   top:40px;
 }
+
+.screen-header__cog__notification {
+  position: absolute;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-radius: 3px;
+  right: 21px;
+  top:43px;
+}
